@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Proximity Hover Effect</title>
+  <meta name="description" content="Example Page which shows proximity hover effect on a web page">
+  <meta name="author" content="SitePoint">
+  
+  <style>
+	body {
+		background-color: #000;
+		color: #fff;
+		padding: 0;
+		margin: 0;
+	}
+	
+	main {
+		display: grid;
+		place-items: center;
+		min-height: 100vh;
+		position: relative;
+	}
+	
+	#eyes, #eyes img {
+		position: absolute;
+	}
+	
+  </style>
+
+</head>
+
+<body>
+	<main>
+		<img id="anchor" src="morty.png">
+		<div id="eyes">
+			<img class="eye" src="eye.png" style="bottom: 150px;left: 180px;">
+			<img class="eye" src="eye.png" style="bottom: 140px;left: 80px;">
+			<img class="eye" src="eye.png" style="top: 90px;right: 55px;">
+			<img class="eye" src="eye.png" style="top: 110px;right: 160px;">
+		</div>
+	</main>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
